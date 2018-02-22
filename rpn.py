@@ -12,7 +12,7 @@ def calculate(arg):
 			arg1 = int(stack.pop())
 			arg2 = int(stack.pop())
 			result = 1
-			for x in xrange(arg1):
+			for x in range(0, arg1):
 				result = result * arg2
 			return result
 		value = int(token)
